@@ -1,0 +1,50 @@
+h1.header {
+    font-family: 'Mr Bedfort';font-size: 60px;
+	}
+
+<!--body {
+		margin: 0;
+		padding: 0;
+		font-family: 'Arial', serif;
+	}
+
+.nav {
+	background-color: #ffffff;
+	color: #000000;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0 0 0;
+	}
+
+.nav > li {
+	display: inline-block;
+	padding: 0 25px 0 25 px;
+	font-size:12px;
+}
+
+.nav > li > a:hover {
+	color: #c1c1c1;
+	}
+
+.logo {
+	color: #000000;
+	float: left;
+	padding-left:25px;
+	font-size: 16px;
+	font-weight:bold;
+}
+.logo > a {
+	text-decoration: none;
+	color: #000000;
+}
+-->
+
+.banner {
+	width: 100%;
+	display: block:
+}
+
+.banner > .header {
+	width: 100%;
+	display: block:
+}
