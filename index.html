@@ -1,30 +1,360 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta  charset="utf-8">
-	<link href='https://fonts.googleapis.com/css?family=Clicker Script' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Mr Bedfort' rel='stylesheet'>
-	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-<style></style>
+	
+<title>Personal Website</title>
+<style>
+	* --- BODY CONTENT/TEXT CONTENTS  ---*/
+
+body {
+margin:0px;
+color:#b3b3b3;
+font:8px 'Montserrat';
+line-height:60px;
+
+background-color:#F6F6F6;
+background-attachment:fixed;
+background-repeat:repeat;
+z-index:999999;
+font-style:normal;
+line-height:10px;
+font-smooth:always;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+a {
+  transition:0.5s ease;
+    -o-transition:0.5s ease;
+    -moz-transition:0.5s ease;
+    -webkit-transition:0.5s ease;
+    color:#afd5d5;
+    color:inherit;
+}
+
+a:link, a:active, a:visited {text-decoration:none; color:;#afd5d5;}
+
+blockquote {
+    padding:.6em .6em .6em 2em;
+    border-left:1px solid #F6F6F6;
+}
+blockquote, ol, ul, p, pre {
+    margin:0 0 .6em;
+}
+
+blockquote img
+{width:100%;}
+
+
+h1 {
+font:7px 'Montserrat';
+text-transform:uppercase;
+text-align:left;
+line-height:16px;
+letter-spacing:1px;
+color:#1f1d1d;
+}
+
+h2 {
+text-align:left;
+letter-spacing:1px;
+color:#1f1d1d;
+font: 10px 'Montserrat';
+font-style:normal;
+
+}
+
+h3 {
+text-align:left;
+line-height:16px;
+letter-spacing:1px;
+color:#1f1d1d;
+font:7px 'Montserrat';
+font-style:normal;
+text-transform:uppercase;
+}
+
+
+b, bold { font-weight:bold; font-weight:900; color:#b1cec0;}
+
+em, italic  {color:#c2e7d5; font-style:italic; }
+
+i, italic {color:#c2e7d5; } 
+
+li, { color:#b1cec0; } 
+
+
+
+
+
+/* ---BLOG TITLE  ---*/
+h5 {
+  top:280px;
+  text-align:center;
+  width:256px;
+  padding: 0;
+  font-size: 10px;
+  line-height: 13px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color:#1f1d1d;
+  position:absolute;
+  text-transform:uppercase;
+}
+
+
+/* --- DESCRIPTION ---*/
+
+h4 {
+  top:310px;
+  text-align:center;
+  width:236px;
+  padding: 0;
+  font-size:9px;
+  line-height: 15px;
+  font-family: 'Montserrat';
+  font-weight:400;
+  color:#1f1d1d;
+  position:absolute;
+  left:11px;
+}
+
+
+
+  
+/* --- SIDEBAR CONTAINER  ---*/
+
+.sidebarcontainer
+{position:fixed;
+margin-left:300px;
+margin-top:90px;
+width:260px;
+height:420px;
+z-index:999999;
+ background-color:#ffffff;
+
+}
+
+
+.sidebar
+{ background-color:#ffffff;
+width:240px;
+height:420px;
+position:fixed;
+z-index:999999999999 !important;
+}
+
+/* --- MOCK sidebar SIDEBAR IMAGE  ---*/
+.sidebar img
+{
+width:260px;
+height:260px;
+position:absolute;
+z-index:-1;
+ box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+}
+
+ /* --- SEARCH ---*/
+     
+   
+
+  
+.search input {
+color:#ffffff;
+border:0px;
+text-transform:uppercase;
+width:60px;
+letter-spacing:1px;
+padding:11px 8px;
+font-family:'Montserrat';
+font-size:11px;
+font-weight:700;
+z-index:9999999999;
+outline:none;
+background-color:transparent;
+}
+
+
+    
+.search :focus {outline:0;} 
+ 
+#sb {top:4px;position:absolute;left:190px;} 
+
+ 
+   
+::-webkit-input-placeholder {color: inherit;}
+:-moz-placeholder {color: inherit; opacity:1;}
+::-moz-placeholder {color: inherit; opacity:1;}
+:-ms-input-placeholder {color: inherit;}
+ 
+input:focus::-webkit-input-placeholder {color: transparent;}
+input:focus:-moz-placeholder {color: transparent;}
+input:focus::-moz-placeholder {color: transparent;}
+input:focus:-ms-input-placeholder { color: transparent;}
+
+  
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background:#b1cec0;
+  position: fixed;
+  z-index:999;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  float:right;
+}
+/*------- DROP DOWN NAVIGATION CONTENT --------*/ 
+
+
+.nav {
+    display: block;
+    font: 10px Helvetica, Tahoma, serif;
+    text-transform: uppercase;
+    margin: 0; 
+    padding: 0;
+    position:fixed;
+    margin-left:-10px;
+}
+
+.nav li {
+    display: inline-block;
+    list-style: none;
+   
+}
+
+.nav .button-dropdown {
+    position: relative;
+}
+
+.nav li a {
+    display:inline-block;
+    width:250px;
+    padding: 10px 20px;
+    text-decoration: none;
+   
+    
+}
+
+.nav li a span {
+    display: inline-block;
+    margin-left: 5px;
+    
+}
+
+.nav li a:hover, .nav li a.dropdown-toggle.active { }
+
+.nav li a:hover span, .nav li a.dropdown-toggle.active span { }
+
+.nav li .dropdown-menu {
+    display:none;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.nav li .dropdown-menu.active {
+    display:inline-block;
+}
+
+.nav li .dropdown-menu a {
+    width:50px;
+    padding:7px;
+    margin-bottom:10px;
+    font-size:7px;
+    letter-spacing:1px;
+    font-family:'Montserrat', sans-serif;
+    text-align:center;
+    color:#bbbbbb;
+    display:inline-block;
+    background-color:#ffffff;
+    margin-left:20px;}
+
+.nav i {color:#ffffff;}
+
+.nav li .dropdown-menu a:hover
+{background-color:#eea7a3;
+color:#ffffff; } 
+
+
+.nav li  .dropdown-menu a i
+{font-size:2em;} 
+ 
+
+
+
+
+
+
+</style>
 </head>
 <body>
-	 <!--<ul class="nav">
-		
-		<div class="logo">
-			<a href="a">LOGO</a>
-		</div>
-		
-		<li><a href="a">Home</a></li>
-		<li><a href="a">Home</a></li>
-		<li><a href="a">Home</a></li>
-	</ul>//
-	-->
-	<div class="banner">
-		<img class="header" src="images/header1.jpg">
-	</div>
 	
 	
+<div class="wrap"> 
+<div class="playwrap">
+<div class="sidebar">
+<div class="sidebarimage"> <img src="images/sidebarimage.jpg">
+
+
+    
+    <ul class="nav">
+  <li>
+    
+   <li class="button-dropdown"><a href="javascript:void(0)" class="dropdown-toggle"> <em class="material-icons">menu</em> </a>
+     <ul class="dropdown-menu">
+      <li>
+   
+<li> <a href="/" title="home">home</a></li> 
+<li> <a href="/ask" title="ask">Ask</a> </li>
+<li> <a href="/archive" title="archive">Past</a></li>
+   <li>
+   <a href="" title="Link 1">Link 1</a> </li>
+   <li>
+<a href="" title="Link 2">Link 2</a>
+     </li> 
+<li> <a href="" title="Link 3">Link 3</a></li>
+<li> <a href="http://" title="Link 4">Link 4</a></li>
+<li> <a href="http://" title="Link 5">Link 5</a></li>
+<li> <a href="http://" title="Link 6">Link 6</a></li>
+<li><a href="http://" title="Link 7">Link 7</a></li>
+<li><a href="http://" title="Link 8">Link 8</a></li>
+
+    </ul>
+  </li>
+  
+  
+<div id="sb"><form action="/search" method="get" class="search">
+<input type="text" name="q" placeholder="search"/></div>
+
+</div>
+<h5>Claude Padasas | Personal Website</h5>
+<h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h4>
+
+
+
+</div>
+	
+	
+</div>
+
 
 </body>
 </html>
