@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script type=”text/javascript”
-	src=”http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js”></script>
-	
-	<script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
-	<style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}</style>
-	<style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style>
-	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+  <script type=”text/javascript”
+  src=”http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js”></script>
+  
+  <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+  <style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}</style>
+  <style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style>
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 
-	<link href='https://fonts.googleapis.com/css?family=Droid Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
-	<link href='https://fonts.googleapis.com/css?family=Source Sans Pro:400' rel='stylesheet' type='text/css'>
-	
-	<title>Personal Website</title>
-	<link rel="alternate" type="application/rss+xml" href="http://previewbangs.tumblr.com/rss">
-	
-	<meta name="color:Background" content="#f6f6f6">
+  <link href='https://fonts.googleapis.com/css?family=Source Sans Pro:400' rel='stylesheet' type='text/css'>
+  
+  <title>Personal Website</title>
+  <link rel="alternate" type="application/rss+xml" href="http://previewbangs.tumblr.com/rss">
+  
+  <meta name="color:Background" content="#f6f6f6">
     <meta name="color:Accent" content="#b1cec0">
     <meta name="color:Desc Text" content="#1f1d1d">
     <meta name="color:Title" content="#1f1d1d" >
@@ -34,7 +34,7 @@
     <meta name="color:Border" content="#f0f0f0">
     <meta name="color:Post Info" content="#1f1d1d"/>
     <meta name="color:Scrollbar" content="#eeeeee">
-	
+  
     <meta name="image:Background" content=""/>
     <meta name="image:Sidebar" content=""/>
     <meta name="text:Blog Title" content="CLAUDE PADASAS | PERSONAL WEBSITE" />
@@ -43,7 +43,7 @@
 
    
     <link rel="stylesheet" href="css/reset.css"> 
-	<link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="css/style.css"> 
     
     <meta name="select:Post Size" content="200px" title="200px">
     <meta name="select:Post Size" content="250px" title="250px">
@@ -85,7 +85,39 @@
 
 
 
-<!--
+<!-- DROPDOWN MENU -->
+
+<script>
+     
+     jQuery(document).ready(function (e) {
+    function t(t) {
+        e(t).bind("click", function (t) {
+            t.preventDefault();
+            e(this).parent().fadeOut()
+        })
+    }
+    e(".dropdown-toggle").click(function () {
+        var t = e(this).parents(".button-dropdown").children(".dropdown-menu").is(":hidden");
+        e(".button-dropdown .dropdown-menu").hide();
+        e(".button-dropdown .dropdown-toggle").removeClass("active");
+        if (t) {
+            e(this).parents(".button-dropdown").children(".dropdown-menu").toggle().parents(".button-dropdown").children(".dropdown-toggle").addClass("active")
+        }
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-menu").hide();
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-toggle").removeClass("active");
+    })
+});
+     
+     
+ </script>
+ <!-- DROPDOWN MENU -->
+
 <script>
 $(document).ready(function(){
     $("#hide").click(function(){
@@ -96,14 +128,14 @@ $(document).ready(function(){
     });
 });
 </script>
--->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 
 
 <style type="text/css">
-	
-	/* --- TOOLTIPS  ---*/
+  
+  /* --- TOOLTIPS  ---*/
  
 div#qTip {   display:block;
             font-size:10px;
@@ -150,33 +182,9 @@ div#qTip {   display:block;
 
 
 
-/* --- LIGHTBOX, DON'T TOUCH  ---*/
 
 
- 
-.vignette, #vignette {
-    opacity:0; 
-}
-.lightbox-image, #tumblr_lightbox img {
-    box-shadow:none !important;
-    border-radius:0 !important;
-    max-width:none;
-    border:5px solid #fff !important;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-     
-}
-
-.tmblr-lightbox, #tumblr_lightbox { 
-    background-color:rgba(245,245,245,.84) !important;
-}
-
-.lightbox-caption, #tumblr_lightbox_caption {
-    visibility:hidden; 
-}
-
-
-	* --- BODY CONTENT/TEXT CONTENTS  ---*/
+  * --- BODY CONTENT/TEXT CONTENTS  ---*/
 
 body {
 margin:0px;
@@ -284,7 +292,7 @@ h4 {
   text-align:center;
   width:236px;
   padding: 0;
-  font-size:9px;
+  font-size:9.7px;
   line-height: 15px;
   font-family: 'Montserrat';
   font-weight:400;
@@ -720,8 +728,8 @@ color:#ffffff; }
 
 </head>
 <body>
-	
-	
+  
+  
 <div class="wrap"> 
 <div class="playwrap">
 <div class="sidebar">
@@ -760,17 +768,28 @@ color:#ffffff; }
 
 </div>
 <h5>Claude Padasas | Personal Website</h5>
-<h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h4>
+<h4>HELLO. I'M A 3RD YEAR BSIT STUDENT OF UNIVERSITY OF SOUTHEASTERN PHILIPPINES. I MAKE JOKES WHEN I'M UNCOMFORTABLE.</h4>
+
+<div class="content">
+
+
+
+<div class="entry">
+
 
 
 
 </div>
-	
-	
+  
+  
 </div>
 
 
 </body>
+
+
+
+
+    
+
 </html>
