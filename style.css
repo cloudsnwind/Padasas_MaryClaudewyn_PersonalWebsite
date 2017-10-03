@@ -49,3 +49,40 @@ h1 {
   -webkit-transition: box-shadow 1s ease;
   transition: box-shadow 1s ease;
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  float:left:
+   
+}
+
+
+/*Navigation Style*/
+ ul { list-style-type: block; 
+    position: absolute; 
+    top: 0px; 
+    right: 0px;
+    width: 100%;
+    overflow: hidden; 
+    z-index: 100; }
+ 
+ ul li { display: inline; 
+     float:right; }
+
+
+ ul li a{ display: block; 
+      color: #FFFFFF; 
+      text-decoration: none; 
+      text-transform: uppercase;
+      text-align: center;
+      padding: 8px 9px;
+      top: 0px; 
+      font-family:'Handlee', cursive;
+      font-size: 18px; }
+    
+ ul li a:hover { color: #d5a090} 
+
