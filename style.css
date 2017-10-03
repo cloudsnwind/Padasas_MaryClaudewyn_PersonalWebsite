@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  background: url(images/header1.jpg) no-repeat center center;
+  background: url(header1.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -45,7 +45,7 @@ body {
 
     
 /*Header*/
- .Header { background-image: url(images/header1.jpg);
+ .Header { background-image: url(header1.jpg);
      background-repeat: no-repeat; 
      background-size: cover; 
      background-attachment: fixed;
@@ -84,4 +84,30 @@ body {
            left: 535px;
            width: 350px;
            height: 160px; }
+
+           
+ .container { position: absolute;
+        top: 150px;
+        left: 300px;
+        width: 250px;
+        height: 250px; }
+      
+ .container .container-layer_bottom { display: block;}
+
+.right.side { position: absolute;
+         top: 200px;
+         left: 350px;
+         width: 500px;
+         height: 300px; 
+         overflow:hidden; }
+
+
+
+
+.about.line { position: absolute;   
+         top: 600px;
+         left: 761.5px;
+         width: 5px; 
+         height: 60px; 
+         overflow:hidden; }
 
