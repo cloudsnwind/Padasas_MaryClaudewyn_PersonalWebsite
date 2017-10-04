@@ -162,6 +162,13 @@ body {
  .skill.title { position: absolute;
         top: -10px;
         left: 335px;
-        width: 650px;
+        width: 635px;
         height: 190px;
+        overflow: hidden; }
+
+  .skills-content {  position: absolute;
+        top: 200px;
+        left: 400px;
+        width: 465px;
+        height: 465px;
         overflow: hidden; }
