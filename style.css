@@ -3,18 +3,18 @@
   padding: 0; 
 }
 
-html, body {
-  height: 100%;
-}
+
 
 body {
-  background: url(header1.jpg) no-repeat center center;
+  background: url(images/header.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+   width:100%; 
+     height:3000px;
 }
 
 /*Navigation Style*/
@@ -67,7 +67,7 @@ body {
 /*About Me page*/
  .about { background-color: #FFFFFF; 
       left: 0; 
-      top: 733px;
+      top: -500px;
       width: 100%; 
       height: 650px;
       position:relative;   }
@@ -167,26 +167,26 @@ body {
         overflow: hidden; }
 
   .skills-content {  position: absolute;
-        top: 200px;
-        left: 300px;
-        width: 685px;
+        top: 150px;
+        left: 350px;
+        width: 600px;
         height: 529px;
         overflow: hidden; }
 
   .skilltext1 { position: absolute;
-       top: 265px;
+       top: 225px;
         left: 10px;
         width: 250px;
        height: 90px;
        overflow:hidden; }
   .skilltext2 { position: absolute;
-       top: 390px;
+       top: 350px;
         left: 10px;
         width: 250px;
        height: 90px;
        overflow:hidden; }
   .skilltext3 { position: absolute;
-       top: 525px;
+       top: 465px;
         left: 30px;
         width: 250px;
        height: 90px;
@@ -194,17 +194,57 @@ body {
 
 
   .skilltext4 {  position: absolute;
-       top: 650px;
+       top: 575px;
         left: 30px;
         width: 250px;
        height: 90px;
        overflow:hidden; }
  
   .skilltext5 { position: absolute;
-       top: 250px;
+       top: 215px;
         left: 945px;
         width: 250px;
        height: 90px;
        overflow:hidden;
   }
 
+  .skilltext6 { position: absolute;
+       top: 345px;
+        left:  970px;
+        width: 250px;
+       height: 90px;
+       overflow:hidden;
+  }
+
+  .skilltext7 { position: absolute;
+       top:  460px;
+        left: 945px;
+        width: 250px;
+       height: 90px;
+       overflow:hidden;
+  }
+
+  .skilltext8 { position: absolute;
+       top: 600px;
+       left: 965px;
+        width: 250px;
+       height: 90px;
+       overflow:hidden;
+
+  }
+
+  /*Abilities*/
+  .abilities { background-color: #FFFFFF; 
+        position:absolute; 
+        left: 0; 
+        top: 700px;
+        width: 100%; 
+        height: 650px;  
+        overflow:hidden; }        
+        
+ .abilities.title { position: absolute;
+          top: 0px;
+          left: 400px;
+          width: 400px;
+          height: 200px;
+          overflow: hidden; }
