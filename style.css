@@ -168,7 +168,27 @@ body {
 
   .skills-content {  position: absolute;
         top: 200px;
-        left: 250px;
-        width: 785px;
+        left: 300px;
+        width: 685px;
         height: 529px;
         overflow: hidden; }
+
+  .skilltext1 { position: absolute;
+       top: 265px;
+        left: 10px;
+        width: 250px;
+       height: 90px;
+       overflow:hidden; }
+  .skilltext2 { position: absolute;
+       top: 390px;
+        left: 10px;
+        width: 250px;
+       height: 90px;
+       overflow:hidden; }
+  .skilltext3 { position: absolute;
+       top: 525px;
+        left: 30px;
+        width: 250px;
+       height: 90px;
+       overflow:hidden; }
+
