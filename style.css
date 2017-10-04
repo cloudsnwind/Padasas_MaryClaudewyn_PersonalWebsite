@@ -192,3 +192,19 @@ body {
        height: 90px;
        overflow:hidden; }
 
+
+  .skilltext4 {  position: absolute;
+       top: 650px;
+        left: 30px;
+        width: 250px;
+       height: 90px;
+       overflow:hidden; }
+ 
+  .skilltext5 { position: absolute;
+       top: 250px;
+        left: 945px;
+        width: 250px;
+       height: 90px;
+       overflow:hidden;
+  }
+
