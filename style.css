@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
    width:100%; 
-     height:3000px;
+     height:4000px;
 }
 
 /*Navigation Style*/
@@ -45,7 +45,7 @@ body {
 
     
 /*Header*/
- .Header { background-image: url(header1.jpg);
+ .Header { background-image: url(header2.jpg);
      background-repeat: no-repeat; 
      background-size: cover; 
      background-attachment: fixed;
@@ -55,7 +55,7 @@ body {
      height:100%; }
      
  .name { position: absolute;
-     top: 250px;
+     top: 150px;
      left: 400px;
      width: 600px;
      height: 400px; 
@@ -67,9 +67,9 @@ body {
 /*About Me page*/
  .about { background-color: #FFFFFF; 
       left: 0; 
-      top: -550px;
+      top: -1150px;
       width: 100%; 
-      height: 500px;
+      height: 450px;
       position:relative;   }
       
  .about.top { background-color: #FFFFFF; 
@@ -87,7 +87,7 @@ body {
 
            
  .description { position: absolute;
-        top: 150px;
+        top: 125px;
         left: 300px;
         width: 250px;
         height: 250px; }
@@ -95,7 +95,7 @@ body {
  .description .description-layer_bottom { display: block;}
 
 .right.side { position: absolute;
-         top: 200px;
+         top: 150px;
          left: 350px;
          width: 500px;
          height: 300px; 
@@ -114,10 +114,10 @@ body {
 /*Education*/
  .education {  background-color: #cac8ca; 
         position:absolute; 
-        top: 500px;        
+        top: 450px;        
         left: 0; 
         width: 100%; 
-        height: 550px;  } 
+        height: 500px;  } 
         
  .education.line { position: absolute;   
           top: 0px;
@@ -130,49 +130,49 @@ body {
                top: 10px;
                left: 465px;
                width: 450px;
-               height: 150px;
+               height: 67px;
                overflow:hidden; }
 
  .GradeSchool { position: absolute;
-    top: 145px;
-    left: 250px;
+    top: 85px;
+    left: 200px;
     width:400px;
-    height:400px;
+    height:375px;
     overflow:hidden;
     
      }
 
 
  .Tertiary { position: absolute;
-     top: 150px;
-    left: 675px;
-    width:400px;
-    height:400px;
+     top: 85px;
+    left: 710px;
+    width:375px;
+    height:375px;
     overflow:hidden;
       }
 
   /*Skills*/
  .skill {  background-color: #feecd4;
        position:absolute;  
-       top: 545px;
+       top: 450px;
        width: 100%; 
-       height: 600px;  
+       height: 450px;  
        overflow: hidden;}     
         
  .skill.title { position: absolute;
         top: -10px;
-        left: 500px;
-        width: 350px;
-        height: 150px;
+        left: 450px;
+        width: 500px;
+        height: 74px;
         overflow: hidden; }
 
   .skills-content {  position: absolute;
-        top: 125px;
-        left: 445px;
-        width: 450px;
-        height: 429px;
+        top: 85px;
+        left: 150px;
+        width: 400px;
+        height: 309px;
         overflow: hidden; }
-
+    /*
   .skilltext1 { position: absolute;
        top: 225px;
         left: 10px;
@@ -232,5 +232,18 @@ body {
        overflow:hidden;
 
   }
+  */
 
- 
+.abilities {  background-color: #feecd4;
+       position:absolute;  
+       top: 545px;
+       width: 100%; 
+       height: 600px;  
+       overflow: hidden;}     
+        
+ .abilities.title { position: absolute;
+        top: -10px;
+        left: 500px;
+        width: 350px;
+        height: 150px;
+        overflow: hidden; }
