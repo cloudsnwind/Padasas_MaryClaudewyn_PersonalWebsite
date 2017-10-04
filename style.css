@@ -152,7 +152,7 @@ body {
       }
 
   /*Skills*/
- .skill {  background-color: #fafafa;
+ .skill {  background-color: #feecd4;
        position:absolute;  
        top: 750px;
        width: 100%; 
@@ -168,7 +168,7 @@ body {
 
   .skills-content {  position: absolute;
         top: 200px;
-        left: 400px;
-        width: 465px;
-        height: 465px;
+        left: 250px;
+        width: 785px;
+        height: 529px;
         overflow: hidden; }
