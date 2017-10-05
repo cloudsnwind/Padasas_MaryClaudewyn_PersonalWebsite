@@ -160,7 +160,7 @@ body {
        position:absolute;  
        top: 500px;
        width: 100%; 
-       height:1000px;  
+       height:650px;  
        overflow: hidden;}     
         
  .skill.title { position: absolute;
@@ -247,24 +247,58 @@ body {
   }
   
 
-.abilities { background-color: #FFFFFF; 
-        position:absolute; 
-        left: 0; 
-        top: 600px;
-        width: 100%; 
-        height: 700px;  
-        overflow:hidden; }  
+/*footer*/    
+ .footer { background-color: #FFFFFF;
+       position:absolute; 
+       top: 500px;
+       width:100%; 
+       height:200px; }   
+ 
+ .facebook { position: absolute;
+         top: 30px;
+       left: 550px;
+       width: 100px;
+       height: 100px;
+       z-index: 1; 
+       -webkit-transition: -webkit-transform .8s ease-in-out;
+       transition: transform .8s ease-in-out; }
+       
+ .facebook:hover { -webkit-transform: rotate(65deg);
+           transform: rotate(65deg); } 
 
- .abilities.top { background-color: #FFFFFF; 
-        position: absolute;  
-        left: 0px; 
-          top: 0px;
-          width: 100%; 
-        height: 200px; }        
-        
- .abilities.title { position: absolute;
-          top: 0px;
-          left: 400px;
-          width: 400px;
-          height: 200px;
-          overflow: hidden; }
+ .twitter { position: absolute;
+        top: 30px;
+      left: 770px;
+      width: 100px;
+      height: 100px;
+      z-index: 3; 
+      -webkit-transition: -webkit-transform .8s ease-in-out;
+       transition: transform .8s ease-in-out; }
+       
+ .twitter:hover { -webkit-transform: rotate(70deg);
+           transform: rotate(70deg); } 
+
+   .yt { position: absolute;
+           top: 30px;
+         left: 880px;
+         width: 100px;
+         height: 100px;
+         z-index: 4;  
+         -webkit-transition: -webkit-transform .8s ease-in-out;
+         transition: transform .8s ease-in-out; }
+       
+ .yt:hover { -webkit-transform: rotate(-70deg);
+           transform: rotate(-70deg); } 
+
+   .instagram { position: absolute;
+          top: 30px;
+        left: 660px;
+        width: 100px;
+        height: 100px;
+        z-index: 2; 
+        -webkit-transition: -webkit-transform .8s ease-in-out;
+        transition: transform .8s ease-in-out; }
+       
+ .instagram:hover { -webkit-transform: rotate(-70deg);
+           transform: rotate(-70deg); } 
+
