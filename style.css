@@ -73,18 +73,19 @@ body {
       height: 450px;
       position:relative;   }
       
- .about.top { background-color: #FFFFFF; 
+ .about-top { background-color: #FFFFFF; 
         position: absolute;  
         left: 0px; 
           top: 0px;
           width: 100%; 
         height: 200px; }
          
- .about.me.title { position: absolute;
+ .about-me { position: absolute;
            top: 0px;
            left: 525px;
            width: 350px;
            height: 160px; 
+
          }
 
            
