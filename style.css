@@ -84,7 +84,8 @@ body {
            top: 0px;
            left: 525px;
            width: 350px;
-           height: 160px; }
+           height: 160px; 
+         }
 
            
  .description { position: absolute;
@@ -94,6 +95,8 @@ body {
         height: 250px; }
       
  .description .description-layer_bottom { display: block;}
+
+
 
 .right.side { position: absolute;
          top: 150px;
@@ -118,7 +121,7 @@ body {
         top: 450px;        
         left: 0; 
         width: 100%; 
-        height: 500px;  } 
+        height: 600px;  } 
         
  .education.line { position: absolute;   
           top: 0px;
@@ -155,9 +158,9 @@ body {
   /*Skills*/
  .skill {  background-color: #feecd4;
        position:absolute;  
-       top: 450px;
+       top: 500px;
        width: 100%; 
-       height: 450px;  
+       height:1000px;  
        overflow: hidden;}     
         
  .skill.title { position: absolute;
@@ -244,16 +247,24 @@ body {
   }
   
 
-.abilities {  background-color: #feecd4;
-       position:absolute;  
-       top: 545px;
-       width: 100%; 
-       height: 600px;  
-       overflow: hidden;}     
+.abilities { background-color: #FFFFFF; 
+        position:absolute; 
+        left: 0; 
+        top: 600px;
+        width: 100%; 
+        height: 700px;  
+        overflow:hidden; }  
+
+ .abilities.top { background-color: #F2A88F; 
+        position: absolute;  
+        left: 0px; 
+          top: 0px;
+          width: 100%; 
+        height: 200px; }        
         
  .abilities.title { position: absolute;
-        top: -10px;
-        left: 500px;
-        width: 350px;
-        height: 150px;
-        overflow: hidden; }
+          top: 0px;
+          left: 400px;
+          width: 400px;
+          height: 200px;
+          overflow: hidden; }
