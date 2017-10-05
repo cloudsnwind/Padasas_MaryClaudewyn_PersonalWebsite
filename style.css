@@ -1,6 +1,7 @@
 *{
   margin: 0;
-  padding: 0; 
+  padding: 0;
+
 }
 
 
@@ -179,78 +180,33 @@ body {
         width: 400px;
         height: 309px;
         overflow: hidden; }
-    /*
+    
   .skilltext1 { position: absolute;
-       top: 225px;
-        left: 10px;
+       top: 110px;
+        left: -65px;
         width: 250px;
        height: 90px;
        overflow:hidden; }
+       
   .skilltext2 { position: absolute;
-       top: 350px;
-        left: 10px;
+       top: 190px;
+        left: -75px;
         width: 250px;
        height: 90px;
        overflow:hidden; }
+      
   .skilltext3 { position: absolute;
-       top: 465px;
-        left: 30px;
+       top: 265px;
+        left:-50px;
         width: 250px;
        height: 90px;
        overflow:hidden; }
 
-
+       
   .skilltext4 {  position: absolute;
-       top: 575px;
-        left: 30px;
+       top: 345px;
+        left: -75px;
         width: 250px;
        height: 90px;
        overflow:hidden; }
- 
-  .skilltext5 { position: absolute;
-       top: 215px;
-        left: 945px;
-        width: 250px;
-       height: 90px;
-       overflow:hidden;
-  }
-
-  .skilltext6 { position: absolute;
-       top: 345px;
-        left:  970px;
-        width: 250px;
-       height: 90px;
-       overflow:hidden;
-  }
-
-  .skilltext7 { position: absolute;
-       top:  460px;
-        left: 945px;
-        width: 250px;
-       height: 90px;
-       overflow:hidden;
-  }
-
-  .skilltext8 { position: absolute;
-       top: 600px;
-       left: 965px;
-        width: 250px;
-       height: 90px;
-       overflow:hidden;
-
-  }
-  */
-
-.abilities {  background-color: #feecd4;
-       position:absolute;  
-       top: 545px;
-       width: 100%; 
-       height: 600px;  
-       overflow: hidden;}     
-        
- .abilities.title { position: absolute;
-        top: -10px;
-        left: 500px;
-        width: 350px;
-        height: 150px;
-        overflow: hidden; }
+  
