@@ -210,3 +210,50 @@ body {
        height: 90px;
        overflow:hidden; }
   
+  .skilltext5 { position: absolute;
+       top: 110px;
+        left: 455px;
+        width: 250px;
+       height: 90px;
+       overflow:hidden;
+  }
+  
+  .skilltext6 { position: absolute;
+       top: 185px;
+        left:  475px;
+        width: 250px;
+       height: 90px;
+       overflow:hidden;
+  }
+
+  .skilltext7 { position:absolute;
+       top:  265px;
+        left: 465px;
+        width: 475px;
+       height: 90px;
+       overflow:hidden;
+  }
+
+  .skilltext8 { position: absolute;
+       top: 345px;
+       left: 475px;
+        width: 250px;
+       height: 90px;
+       overflow:hidden;
+
+  }
+  
+
+.abilities {  background-color: #feecd4;
+       position:absolute;  
+       top: 545px;
+       width: 100%; 
+       height: 600px;  
+       overflow: hidden;}     
+        
+ .abilities.title { position: absolute;
+        top: -10px;
+        left: 500px;
+        width: 350px;
+        height: 150px;
+        overflow: hidden; }
